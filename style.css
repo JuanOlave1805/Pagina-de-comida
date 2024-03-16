@@ -69,12 +69,6 @@
 .max-width{
   max-width: 1720px;
 }
-.width-10{
-  width: 10px;
-}
-.width-100{
-  width: 100px;
-}
 
 /* heigth */
 .heigth{
@@ -85,9 +79,6 @@
 }
 .heigth-50{
   height: 50%;
-}
-.heigth-10{
-  height: 10px;
 }
 
 /* color */
@@ -149,7 +140,7 @@
 .img10{
   width: 50vw;
   right: 25vw;
-  top: 252vh;
+  top: 260vh;
   z-index: 2;
 }
 .img11{
@@ -190,7 +181,7 @@
   margin-top: 100px;
 }
 .margin-top-20{
-  margin-top: 12vh;
+  margin-top: 15vh;
 }
 .margin-rigth{
   margin-right: 6vw;
@@ -357,4 +348,24 @@
   width: 100%;
   height: 100%;
   position: absolute;
+}
+
+/* Gap */
+.gap{
+  gap: 20px;
+}
+
+/* Padding */
+.padding{
+  padding: 40px;
+}
+.padding-edit{
+  padding: 37px;
+}
+.icons i{
+  margin-left: 5px;
+}
+.icons{
+  top: 540vh;
+  right: 200vw;
 }
