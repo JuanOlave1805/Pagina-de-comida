@@ -5,6 +5,9 @@
 /* Importa tipo pincel  */
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Edu+TAS+Beginner:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -57,6 +60,12 @@
 .width{
   width: 100%;
 }
+.width-70{
+  width: 70%;
+}
+.width-50{
+  width: 50%;
+}
 .max-width{
   max-width: 1720px;
 }
@@ -64,6 +73,9 @@
 /* heigth */
 .heigth{
   height: 200px;
+}
+.heigth-100{
+  height: 100%;
 }
 .heigth-50{
   height: 50%;
@@ -75,6 +87,12 @@
 }
 .verde{
   background-color: green;
+}
+.beige{
+  background-color: #e8e6a6;
+}
+.amarillo{
+  background-color: #ffe100;
 }
 /* colors text */
 .color_black{
@@ -116,38 +134,89 @@
   background-size: cover;
   width: 25vw;
 }
+.img9{
+  width: 30vw;
+}
+.img10{
+  width: 50vw;
+  right: 25vw;
+  top: 252vh;
+  z-index: 2;
+}
+.img11{
+  width: 45vw;
+  height: 65vh;
+}
+.img12{
+  width: 35vw;
+  height: 32vh;
+}
 
 /* position */
 .absolute{
   position: absolute;
+}
+.relative{
+  position: relative;
 }
 .fixed{
   position: fixed;
 }
 
 /* margin */
+.margin{
+  margin-right: 100px;
+  margin-left: 100px;
+}
 .margin-top{
   margin-top: 2vh;
 }
 .margin-top-10{
   margin-top: 10px;
 }
+.margin-top-15{
+  margin-top: 15vh;
+}
+.margin-top-100{
+  margin-top: 100px;
+}
+.margin-top-20{
+  margin-top: 12vh;
+}
 .margin-rigth{
   margin-right: 6vw;
+}
+.margin-rigth-5{
+  margin-right: 10px;
 }
 .margin-botton-10{
   margin-bottom: 10vh;
 }
+.margin-botton-5{
+  margin-bottom: 5vh;
+}
+.margin-botton-20{
+  margin-bottom: 20vh;
+}
+
 
 /* text */
 .text__Header1{
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.2em;
+  font-weight: 900;
+}
+.text__Header1-small{
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+}
+.text__Header2_big{
+  font-family:  "Fredericka the Great", serif;
+  font-size: 3rem;
 }
 .text__Header2{
-  font-family:  "Roboto", sans-serif;
-  font-weight: 800;
-  font-size: 2rem;
+  font-family: "Fredericka the Great", serif;
+  font-size: 1.5rem;
 }
 .text-nav{
   font: 1em sans-serif;
@@ -162,21 +231,31 @@
   font-size: 3rem;
 }
 .text-lap{
-  font-family: "Edu TAS Beginner";
+  font-family: "Fredericka the Great", serif;
   font-weight: 500;
   font-size: 6rem;
 }
 .text-title{
-  font-family: "Edu TAS Beginner";
+  font-family: "Fredericka the Great", serif;;
   font-weight: 500;
   font-size: 4rem;
 }
 .text-h3{
   font-weight:400 ;
   font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
 }
 .text{
   font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+.text-edit{
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+.text_center{
+  text-align: center;
 }
 
 /* Icons */
@@ -195,17 +274,63 @@
   height: 100vh;
   z-index: 2;
 }
+.article2{
+  width: 100%;
+  height: 70vh;
+  z-index: 2;
+}
+.article3{
+  width: 100%;
+  height: 50vh;
+  z-index: 2;
+}
 
 /* button */
 .button{
   padding: 1rem 2rem 1rem 2rem;
-  border: solid var(--negro) .5px;
   transition: 0.5s ease, transform 0.5s ease;
 }
 .button:hover{
   color: white;
   background-color: var(--negro);
-  padding: 1.2rem 2.5rem 1.2rem 2.5rem;
+  cursor: pointer;
+}
+.button2{
+  transition: 0.5s ease, transform 0.5s ease;
+}
+.button2:hover{
+  color: white;
+  background-color: var(--negro);
+  cursor: pointer;
+}
+.circular-btn {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #3498db;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.circular-btn:hover {
+  background-color: #2980b9;
+}
+
+/* Border */
+.border{
+  border: solid var(--negro) .5px;
+}
+.border_none{
+  border: none;
+}
+.radius{
+  border-radius: 20px;
 }
 
 .clip-path-1{
@@ -223,4 +348,24 @@
   width: 100%;
   height: 100%;
   position: absolute;
+}
+
+/* Gap */
+.gap{
+  gap: 20px;
+}
+
+/* Padding */
+.padding{
+  padding: 40px;
+}
+.padding-edit{
+  padding: 37px;
+}
+.icons i{
+  margin-left: 5px;
+}
+.icons{
+  top: 535vh;
+  right: 0vw;
 }
