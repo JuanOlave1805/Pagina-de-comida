@@ -69,6 +69,12 @@
 .max-width{
   max-width: 1720px;
 }
+.width-10{
+  width: 10px;
+}
+.width-100{
+  width: 100px;
+}
 
 /* heigth */
 .heigth{
@@ -79,6 +85,9 @@
 }
 .heigth-50{
   height: 50%;
+}
+.heigth-10{
+  height: 10px;
 }
 
 /* color */
@@ -348,24 +357,4 @@
   width: 100%;
   height: 100%;
   position: absolute;
-}
-
-/* Gap */
-.gap{
-  gap: 20px;
-}
-
-/* Padding */
-.padding{
-  padding: 40px;
-}
-.padding-edit{
-  padding: 37px;
-}
-.icons i{
-  margin-left: 5px;
-}
-.icons{
-  top: 535vh;
-  right: 0vw;
 }
