@@ -98,6 +98,12 @@
 .color_black{
   color: var(--negro);
 }
+.color_white{
+  color: white;
+}
+.color_yellow{
+  color: #ffe100;
+}
 
 /* image */
 .logo{
@@ -132,15 +138,15 @@
 }
 .img8{
   background-size: cover;
-  width: 25vw;
+  width: 22vw;
 }
 .img9{
-  width: 30vw;
+  width: 25vw;
 }
 .img10{
   width: 50vw;
   right: 25vw;
-  top: 260vh;
+  top: 262vh;
   z-index: 2;
 }
 .img11{
@@ -148,8 +154,14 @@
   height: 65vh;
 }
 .img12{
-  width: 35vw;
-  height: 32vh;
+  width: 40vw;
+  height: 30vh;
+}
+.footer-img{
+  background-image: url(Componentes/Footer/img.png);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* position */
@@ -176,6 +188,9 @@
 }
 .margin-top-15{
   margin-top: 15vh;
+}
+.margin-top-10vh{
+  margin-top: 10vh;
 }
 .margin-top-100{
   margin-top: 100px;
@@ -262,6 +277,14 @@
 .icon-smarphone{
   font-size: 5rem;
 }
+.icons i{
+  margin-left: 5px;
+  font-size: 2rem;
+}
+.icons{
+  top: 535vh;
+  right: 5vw;
+}
 
 /* list */
 .list-none{
@@ -283,6 +306,9 @@
   width: 100%;
   height: 50vh;
   z-index: 2;
+}
+.article4{
+height: 95vh;
 }
 
 /* button */
@@ -361,11 +387,4 @@
 }
 .padding-edit{
   padding: 37px;
-}
-.icons i{
-  margin-left: 5px;
-}
-.icons{
-  top: 540vh;
-  right: 200vw;
 }
